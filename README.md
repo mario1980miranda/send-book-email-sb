@@ -54,3 +54,11 @@ INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(1, 4, '2023-01
 INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(2, 6, '2023-01-29');
 INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(3, 2, '2023-01-31');
 ```
+
+## Create domain classes
+
+## Create datasource configuration
+
+### Bean for primary and secondary data sources
+
+### Bean for database transaction manager
