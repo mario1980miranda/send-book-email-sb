@@ -67,6 +67,8 @@ INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(3, 2, '2023-12
 
 ### Create step configuration
 
-### Create reader configuration
+#### Create reader step configuration
 
-#### Implement rowMapper()
+##### Implement rowMapper()
+
+#### Create writer step configuration
