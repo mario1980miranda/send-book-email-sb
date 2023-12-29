@@ -49,10 +49,10 @@ INSERT INTO tb_book (id, name, description, author, category) VALUES(7, 'Torto A
 INSERT INTO tb_book (id, name, description, author, category) VALUES(8, 'Os Miseráveis', 'Lorem ipsum dolor sit amet. Aut voluptates', 'Victor Hugo', 'Romance');
 INSERT INTO tb_book (id, name, description, author, category) VALUES(9, 'Dom Quixote', 'Hic nobis dolor ut praesentium aspernatur', 'Miguel de Cervantes', 'Romance');
 
-INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(1, 9, '2023-01-29');
-INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(1, 4, '2023-01-31');
-INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(2, 6, '2023-01-29');
-INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(3, 2, '2023-01-31');
+INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(1, 9, '2023-12-23');
+INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(1, 4, '2023-12-22');
+INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(2, 6, '2023-12-22');
+INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(3, 2, '2023-12-23');
 ```
 
 ## Create domain classes
@@ -64,3 +64,9 @@ INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(3, 2, '2023-01
 ### Bean for database transaction manager
 
 ## Create job configuration
+
+### Create step configuration
+
+### Create reader configuration
+
+#### Implement rowMapper()

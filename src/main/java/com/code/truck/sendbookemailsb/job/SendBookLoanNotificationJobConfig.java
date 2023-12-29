@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class SendBookLoanNotificationJobConfig {
+
     @Bean
     public Job sendBookLoanNotificationJob(final Step sendEmailUserStep, final JobRepository jobRepository) {
         return new JobBuilder("sendBookLoanNotificationJob", jobRepository)
