@@ -62,3 +62,5 @@ INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(3, 2, '2023-01
 ### Bean for primary and secondary data sources
 
 ### Bean for database transaction manager
+
+## Create job configuration
