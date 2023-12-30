@@ -1,6 +1,5 @@
 package com.code.truck.sendbookemailsb.writer;
 
-import com.code.truck.sendbookemailsb.domain.User;
 import com.code.truck.sendbookemailsb.domain.UserBookLoan;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.context.annotation.Bean;

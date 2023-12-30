@@ -72,3 +72,17 @@ INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(3, 2, '2023-12
 ##### Implement rowMapper()
 
 #### Create writer step configuration
+
+### Add Sendgrid dependency
+
+```xml
+<!-- https://mvnrepository.com/artifact/com.sendgrid/sendgrid-java -->
+<dependency>
+    <groupId>com.sendgrid</groupId>
+    <artifactId>sendgrid-java</artifactId>
+    <version>4.10.1</version>
+</dependency>
+```
+
+### Create processor step configuration
+
