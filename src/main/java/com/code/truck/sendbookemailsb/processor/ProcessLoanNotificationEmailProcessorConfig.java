@@ -17,7 +17,7 @@ public class ProcessLoanNotificationEmailProcessorConfig {
         return new ItemProcessor<>() {
             @Override
             public Mail process(UserBookLoan item) throws Exception {
-                final Email from = new Email("mario_chan15@hotmail.com", "Spring batch app");
+                final Email from = new Email("mario.luiz.miranda@gmail.com", "Spring batch app");
                 final Email to = new Email(item.getUser().getEmail());
                 final Content content = new Content("text/plain", generateEmailText(item));
                 final Mail mail = new Mail(from, "Notification renouvellement livre", to, content);
